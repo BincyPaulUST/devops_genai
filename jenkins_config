@@ -8,16 +8,16 @@ jenkins:
         - credentials:
             - usernamePassword:
                 scope: SYSTEM
-                id: "git-credentials-id"  # Unique ID for Git credentials
-                 username: "bincy.paul@ust.com"
-                password: "16Bincyshalu@"
-                description: "Credentials for accessing Git repository"
+                  id: "git-credentials-id"  # Unique ID for Git credentials
+                  username: "bincy.paul@ust.com"
+                  password: "16Bincyshalu@"
+                  description: "Credentials for accessing Git repository"
             - usernamePassword:
                 scope: SYSTEM
-                id: "docker-registry-credentials-id"  # Unique ID for Docker registry credentials
-                 username: "16bincyshalu"
-                password: "16Bincyshalu"
-                description: "Credentials for accessing Docker Hub registry"
+                  id: "docker-registry-credentials-id"  # Unique ID for Docker registry credentials
+                  username: "16bincyshalu"
+                  password: "16Bincyshalu"
+                  description: "Credentials for accessing Docker Hub registry"
 
   # 2. Define Jenkins Pipeline Job
   jobs:
